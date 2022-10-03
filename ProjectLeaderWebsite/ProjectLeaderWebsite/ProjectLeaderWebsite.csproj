@@ -76,6 +76,7 @@
     <Content Include="Admin\UserControl\wucCategory.ascx" />
     <Content Include="AllCat.aspx" />
     <Content Include="AllPro.aspx" />
+    <Content Include="Cart.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="images\20ac0.jpg" />
     <Content Include="images\3bd4a.jpg" />
@@ -232,6 +233,13 @@
     </Compile>
     <Compile Include="AllPro.aspx.designer.cs">
       <DependentUpon>AllPro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Code\Category.cs" />
     <Compile Include="Code\DB.cs" />

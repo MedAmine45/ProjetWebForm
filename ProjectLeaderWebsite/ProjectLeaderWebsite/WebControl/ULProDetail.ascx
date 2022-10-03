@@ -76,7 +76,7 @@
         <td class="auto-style2">
             <asp:Label ID="Label8" runat="server" Text="Quantity  you want  : "></asp:Label>
 &nbsp;<asp:TextBox ID="txtQty" runat="server" Height="16px" Width="20px">1</asp:TextBox>
-            <asp:ImageButton ID="ImageButton1" runat="server" Height="59px" ImageUrl="~/images/cart.jpg" Width="97px" />
+            <asp:ImageButton ID="ibnCart" runat="server" Height="59px" ImageUrl="~/images/cart.jpg" Width="97px" OnClick="ibnCart_Click" />
             <br />
             <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="txtMaxQty" ControlToValidate="txtQty" ErrorMessage="this Quantity higher Max Quantity " Operator="LessThanEqual" Type="Integer"></asp:CompareValidator>
         </td>

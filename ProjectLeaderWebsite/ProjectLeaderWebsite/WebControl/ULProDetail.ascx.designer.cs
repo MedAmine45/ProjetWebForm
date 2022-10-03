@@ -168,13 +168,13 @@ namespace ProjectLeaderWebsite.WebControl
         protected global::System.Web.UI.WebControls.TextBox txtQty;
 
         /// <summary>
-        /// ImageButton1 control.
+        /// ibnCart control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.ImageButton ibnCart;
 
         /// <summary>
         /// CompareValidator1 control.
