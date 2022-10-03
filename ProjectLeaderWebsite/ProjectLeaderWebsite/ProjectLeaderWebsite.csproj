@@ -1,0 +1,397 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C701FB19-35D0-4D47-97D5-AF4B13B76028}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectLeaderWebsite</RootNamespace>
+    <AssemblyName>ProjectLeaderWebsite</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44387</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\Product.aspx" />
+    <Content Include="Admin\Categorie.aspx" />
+    <Content Include="Admin\SearchMembers.aspx" />
+    <Content Include="Admin\UserControl\MemberSearch.ascx" />
+    <Content Include="Admin\UserControl\wucProduct.ascx" />
+    <Content Include="Admin\UserControl\wucCategory.ascx" />
+    <Content Include="AllCat.aspx" />
+    <Content Include="AllPro.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\20ac0.jpg" />
+    <Content Include="images\3bd4a.jpg" />
+    <Content Include="images\3e0fe.jpg" />
+    <Content Include="images\65db5.jpg" />
+    <Content Include="images\a2e01.jpg" />
+    <Content Include="images\aa576.jpg" />
+    <Content Include="images\block.png" />
+    <Content Include="images\blockbullets.png" />
+    <Content Include="images\cadenas.png" />
+    <Content Include="images\cart.jpg" />
+    <Content Include="images\f.png" />
+    <Content Include="images\footerbullets.png" />
+    <Content Include="images\footerfacebookicon.png" />
+    <Content Include="images\footerrssicon.png" />
+    <Content Include="images\footertwittericon.png" />
+    <Content Include="images\header.png" />
+    <Content Include="images\linkedinicon.png" />
+    <Content Include="images\mail.png" />
+    <Content Include="images\menuseparator.png" />
+    <Content Include="images\NavigatorFirst.png" />
+    <Content Include="images\NavigatorFirstOff.png" />
+    <Content Include="images\NavigatorLast.png" />
+    <Content Include="images\NavigatorLastOff.png" />
+    <Content Include="images\NavigatorNext.png" />
+    <Content Include="images\NavigatorNextOff.png" />
+    <Content Include="images\NavigatorPrev.png" />
+    <Content Include="images\NavigatorPrevOff.png" />
+    <Content Include="images\no-avatar.jpg" />
+    <Content Include="images\object939642729.png" />
+    <Content Include="images\object955775323.png" />
+    <Content Include="images\page.jpeg" />
+    <Content Include="images\pinteresticon.png" />
+    <Content Include="images\postbullets.png" />
+    <Content Include="images\postemailicon.png" />
+    <Content Include="images\postpdficon.png" />
+    <Content Include="images\postprinticon.png" />
+    <Content Include="images\postquote.png" />
+    <Content Include="images\preloader-01.gif" />
+    <Content Include="images\rss.png" />
+    <Content Include="images\shutterstock_3608177.jpg" />
+    <Content Include="images\SorterAscActive.png" />
+    <Content Include="images\SorterAscPassive.png" />
+    <Content Include="images\SorterDescActive.png" />
+    <Content Include="images\SorterDescPassive.png" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\template_preview.png" />
+    <Content Include="images\tumblricon.png" />
+    <Content Include="images\téléchargement.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\vimeoicon.png" />
+    <Content Include="images\vmenuactivesubitemicon.png" />
+    <Content Include="images\vmenublock.png" />
+    <Content Include="images\vmenuhoveredsubitemicon.png" />
+    <Content Include="images\vmenusubitemicon.png" />
+    <Content Include="images\youtubeicon.png" />
+    <Content Include="images\yputube.png" />
+    <Content Include="index.html" />
+    <Content Include="jquery.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="new-page-2.html" />
+    <Content Include="new-page.html" />
+    <Content Include="nouvelle-page-2.html" />
+    <Content Include="nouvelle-page-3.html" />
+    <Content Include="nouvelle-page.html" />
+    <Content Include="ProDetail.aspx" />
+    <Content Include="ProImgs\1.jpg" />
+    <Content Include="ProImgs\2.jpg" />
+    <Content Include="ProImgs\3.jpg" />
+    <Content Include="ProOfCat.aspx" />
+    <Content Include="script.js" />
+    <Content Include="script.responsive.js" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="style.css" />
+    <Content Include="style.ie7.css" />
+    <Content Include="style.responsive.css" />
+    <Content Include="Web.config" />
+    <Content Include="WebControl\ULAllCat.ascx" />
+    <Content Include="WebControl\ULAllPro.ascx" />
+    <Content Include="WebControl\ULCategories.ascx" />
+    <Content Include="WebControl\ULLastestPro.ascx" />
+    <Content Include="WebControl\ULProDetail.ascx" />
+    <Content Include="WebControl\ULSearch.ascx" />
+    <Content Include="wucLogin.ascx" />
+    <Content Include="wucSignUp.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Categorie.aspx.cs">
+      <DependentUpon>Categorie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Categorie.aspx.designer.cs">
+      <DependentUpon>Categorie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SearchMembers.aspx.cs">
+      <DependentUpon>SearchMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SearchMembers.aspx.designer.cs">
+      <DependentUpon>SearchMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControl\MemberSearch.ascx.cs">
+      <DependentUpon>MemberSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControl\MemberSearch.ascx.designer.cs">
+      <DependentUpon>MemberSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControl\wucProduct.ascx.cs">
+      <DependentUpon>wucProduct.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControl\wucProduct.ascx.designer.cs">
+      <DependentUpon>wucProduct.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControl\wucCategory.ascx.cs">
+      <DependentUpon>wucCategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControl\wucCategory.ascx.designer.cs">
+      <DependentUpon>wucCategory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AllCat.aspx.cs">
+      <DependentUpon>AllCat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllCat.aspx.designer.cs">
+      <DependentUpon>AllCat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllPro.aspx.cs">
+      <DependentUpon>AllPro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllPro.aspx.designer.cs">
+      <DependentUpon>AllPro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Category.cs" />
+    <Compile Include="Code\DB.cs" />
+    <Compile Include="Code\Utility.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\MainTable.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Member.cs" />
+    <Compile Include="Code\Order.cs" />
+    <Compile Include="Code\OrderDetails.cs" />
+    <Compile Include="Code\Product.cs" />
+    <Compile Include="ProDetail.aspx.cs">
+      <DependentUpon>ProDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProDetail.aspx.designer.cs">
+      <DependentUpon>ProDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProOfCat.aspx.cs">
+      <DependentUpon>ProOfCat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProOfCat.aspx.designer.cs">
+      <DependentUpon>ProOfCat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\ULAllCat.ascx.cs">
+      <DependentUpon>ULAllCat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ULAllCat.ascx.designer.cs">
+      <DependentUpon>ULAllCat.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\ULAllPro.ascx.cs">
+      <DependentUpon>ULAllPro.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ULAllPro.ascx.designer.cs">
+      <DependentUpon>ULAllPro.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\ULCategories.ascx.cs">
+      <DependentUpon>ULCategories.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ULCategories.ascx.designer.cs">
+      <DependentUpon>ULCategories.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\ULLastestPro.ascx.cs">
+      <DependentUpon>ULLastestPro.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ULLastestPro.ascx.designer.cs">
+      <DependentUpon>ULLastestPro.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\ULProDetail.ascx.cs">
+      <DependentUpon>ULProDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ULProDetail.ascx.designer.cs">
+      <DependentUpon>ULProDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\ULSearch.ascx.cs">
+      <DependentUpon>ULSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ULSearch.ascx.designer.cs">
+      <DependentUpon>ULSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="wucLogin.ascx.cs">
+      <DependentUpon>wucLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wucLogin.ascx.designer.cs">
+      <DependentUpon>wucLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="wucSignUp.ascx.cs">
+      <DependentUpon>wucSignUp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wucSignUp.ascx.designer.cs">
+      <DependentUpon>wucSignUp.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="Code\ClassDiagram1.cd" />
+    <Content Include="Admin\MasterPage.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CatImgs\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52217</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44387/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

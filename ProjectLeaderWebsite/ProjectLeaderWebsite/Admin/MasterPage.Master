@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ProjectLeaderWebsite.Admin.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+       
+    <link rel="stylesheet" href="../style.css" media="screen">
+
+    <link rel="stylesheet" href="../style.responsive.css" media="all">
+
+
+    <script src="../jquery.js"></script>
+    <script src="../script.js"></script>
+    <script src="../script.responsive.js"></script>
+
+
+
+<style>.art-content .art-postcontent-0 .layout-item-0 { margin-bottom: 10px;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-top-style:dotted;border-right-style:dotted;border-bottom-style:dotted;border-left-style:dotted;border-width:0px;border-top-color:#CEC3B6;border-right-color:#CEC3B6;border-bottom-color:#CEC3B6;border-left-color:#CEC3B6; background: ; border-spacing: 0px 10px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-2 { border-right-style:dotted;border-right-width:2px;border-right-color:#CEC3B6; padding-right: 5px;padding-left: 5px;  }
+.art-content .art-postcontent-0 .layout-item-3 { padding-right: 5px;padding-left: 5px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+</style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+<div id="art-main">
+<header class="art-header">
+
+    <div class="art-shapes">
+        <div class="art-object955775323"></div>
+<div class="art-object939642729"></div>
+
+            </div>
+
+<h1 class="art-headline">
+    <a href="/"> Informatique</a>
+</h1>
+<h2 class="art-slogan">more healthful information</h2>
+
+
+
+
+
+<nav class="art-nav">
+    <div class="art-nav-inner">
+    <ul class="art-hmenu">
+        <li><a href="Admin.aspx" class="active">Home</a></li>
+        <li><a href="Categorie.aspx">Categories</a></li>
+          <li><a href="nouvelle-page-2.html">News</a></li>
+        <li><a href="Product.aspx">Products</a></li>
+        <li><a href="SearchMembers.aspx">Members Search</a></li></ul> 
+        </div>
+    </nav>
+
+                    
+</header>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1"><div class="art-vmenublock clearfix">
+        <div class="art-vmenublockheader">
+            <h3 class="t">Menu</h3>
+        </div>
+        <div class="art-vmenublockcontent">
+        <ul class="art-vmenu">
+            <li><a  href="Admin.aspx" >Home</a></li>
+            <li><a href="Categorie.aspx">Categories</a></li>
+            <li><a href="nouvelle-page-2.html">News</a></li>
+            <li><a href="Product.aspx">Products</a></li>
+            <li><a href="SearchMembers.aspx">Members Search</a></li>
+
+        </ul>
+                
+        </div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Health Guide</h3>
+        </div>
+        <div class="art-blockcontent"><p><a href="#">The Top Health Stories</a></p><p><a href="#">Health A-Z</a></p><p><a href="#">Get Strong</a></p><p><a href="#">Kitchen Experts</a><br></p><p><a href="#">Real-Life Tips</a><br></p><p><a href="#" class="art-button">Learn more</a><br></p></div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Follow us</h3>
+        </div>
+        <div class="art-blockcontent"><p style="text-align: left;"><img width="40" height="40" alt="" src="images/rss.png" class=""><img width="40" height="40" alt="" src="images/yputube.png" class=""><img width="40" height="40" alt="" src="images/f.png"><img width="40" height="40" alt="" src="images/mail.png"><br></p></div>
+</div></div>
+                        <div class="art-layout-cell art-content">
+                        
+                        <article class="art-post art-article">
+                                
+                                                
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                                
+                
+
+                    </article></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+<p><a href="#">About us</a>|<a href="#">Contacts</a> | Icône <a href="http://webtoolkit4.me/2009/03/17/polaroid-icon-set/">set</a> A.<a href="http://webtoolkit4.me/">Webtoolkit4me</a></p><p>Nulla a ligula volutpat eu ligula et.</p>
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://www.artisteer.com/" target="_blank">Web Template</a> created with Artisteer.</span>
+    </p>
+  </div>
+</footer>
+
+</div>
+
+        </div>
+    </form>
+</body>
+</html>
