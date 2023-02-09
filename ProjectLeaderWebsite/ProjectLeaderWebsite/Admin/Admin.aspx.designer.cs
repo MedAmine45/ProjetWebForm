@@ -31,5 +31,14 @@ namespace ProjectLeaderWebsite.Admin
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lbnSignout;
+
+        /// <summary>
+        /// AggAdmin1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ProjectLeaderWebsite.Admin.UserControl.AggAdmin AggAdmin1;
     }
 }

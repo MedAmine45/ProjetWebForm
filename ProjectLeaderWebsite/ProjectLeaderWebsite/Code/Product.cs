@@ -141,5 +141,21 @@ namespace ProjectLeaderWebsite
             return Delete();
 
         }
+
+        public int CountProducts()
+        {
+           DataTable tbl = db.RunQuery("Select Count(*) From Product");
+            return int.Parse(tbl.Rows[0][0].ToString());
+        }
+        public double MaxPriceProducts()
+        {
+            DataTable tbl = db.RunQuery("Select Max(Price) From Product");
+            return double.Parse(tbl.Rows[0][0].ToString());
+        }
+        public string  MaxPriceProductName()
+        {
+            DataTable tbl = db.RunQuery("Select ProName From Product where Price=" + MaxPriceProducts());
+            return tbl.Rows[0][0].ToString();
+        }
     }
 }

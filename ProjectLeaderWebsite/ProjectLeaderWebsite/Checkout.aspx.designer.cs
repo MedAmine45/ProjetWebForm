@@ -11,7 +11,7 @@ namespace ProjectLeaderWebsite
 {
 
 
-    public partial class Cart
+    public partial class Checkout
     {
 
         /// <summary>
@@ -24,12 +24,12 @@ namespace ProjectLeaderWebsite
         protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
-        /// ShoppingCard control.
+        /// ULCheckout control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ProjectLeaderWebsite.WebControl.ShoppingCard ShoppingCard;
+        protected global::ProjectLeaderWebsite.WebControl.Checkout ULCheckout;
     }
 }

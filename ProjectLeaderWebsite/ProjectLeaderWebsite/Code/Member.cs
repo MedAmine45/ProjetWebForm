@@ -219,6 +219,16 @@ namespace ProjectLeaderWebsite
             return Search(query); ;
         }
 
+        public double GenderPer(string MaleOrFemale)
+        {
+            string queryMF = String.Format(" select count(*) from Member Where gender = '{0}'   ",MaleOrFemale);
+            string query = "select count(*) from Member";
+            double MF = int.Parse(db.RunQuery(queryMF).Rows[0][0].ToString());
+            double All = int.Parse(db.RunQuery(query).Rows[0][0].ToString());
+            double per = MF/All;
+            return per  ;
+        }
+
        
     }
 }

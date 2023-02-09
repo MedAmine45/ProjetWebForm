@@ -45,8 +45,10 @@ namespace ProjectLeaderWebsite.WebControl
                 tbl.Columns.Add("ProID");
                 tbl.Columns.Add("ProName");
                 tbl.Columns.Add("Price");
-                tbl.Columns.Add("Qunatity");
+                tbl.Columns.Add("Quantity");
                 tbl.Columns.Add("SubTotal");
+                DataColumn[] cols = { tbl.Columns[0], tbl.Columns[1] };
+                tbl.Constraints.Add("Cart_Pk", cols , true);
             }
             else
                 tbl = (DataTable)Session["cart"];
@@ -55,8 +57,8 @@ namespace ProjectLeaderWebsite.WebControl
             row[1]= LblProID.Text;
             row[2] = LblProName.Text;
             row[3] = LblPrice.Text;
-            row[4] = LblQty.Text;
-            row[5] = int.Parse(LblQty.Text)*double.Parse(LblPrice.Text);
+            row[4] = txtQty.Text;
+            row[5] = int.Parse(txtQty.Text)*double.Parse(LblPrice.Text);
             tbl.Rows.Add(row);
             Session["cart"] = tbl;
             Response.Redirect("AllCat.aspx");

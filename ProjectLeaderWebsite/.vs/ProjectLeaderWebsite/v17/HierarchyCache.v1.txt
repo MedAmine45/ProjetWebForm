@@ -8,41 +8,12 @@ i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectle
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
 ++Admin
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\
-++UserControl
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\
-++MemberSearch.ascx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\membersearch.ascx
-++wucCategory.ascx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wuccategory.ascx
-++wucProduct.ascx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wucproduct.ascx
-++wucProduct.ascx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wucproduct.ascx.cs
-++wucProduct.ascx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wucproduct.ascx.designer.cs
-++Admin.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\admin.aspx
-++Categorie.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\categorie.aspx
-++Categorie.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\categorie.aspx.cs
-++Categorie.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\categorie.aspx.designer.cs
-++MasterPage.Master
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\masterpage.master
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\masterpage.master
-++Product.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\product.aspx
-++Product.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\product.aspx.cs
-++Product.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\product.aspx.designer.cs
-++SearchMembers.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\searchmembers.aspx
 ++CatImgs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\catimgs\
 ++Code
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\code\
+++Card.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\code\card.cs
 ++Category.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\code\category.cs
 ++ClassDiagram1.cd
@@ -63,6 +34,109 @@ i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectle
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\code\utility.cs
 ++images
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\
+++ProImgs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proimgs\
+++WebControl
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\
+++AllCat.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allcat.aspx
+++AllPro.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allpro.aspx
+++Cart.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\cart.aspx
+++Checkout.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\checkout.aspx
+++Default.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\default.aspx
+++jquery.js
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\jquery.js
+++Login.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\login.aspx
+++MasterPage.Master
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\masterpage.master
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\masterpage.master
+++packages.config
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\packages.config
+++Piece.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\piece.cs
+++ProDetail.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\prodetail.aspx
+++ProOfCat.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proofcat.aspx
+++script.js
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\script.js
+++script.responsive.js
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\script.responsive.js
+++SignUp.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\signup.aspx
+++SignUp.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\signup.aspx.cs
+++SignUp.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\signup.aspx.designer.cs
+++style.css
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\style.css
+++style.ie7.css
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\style.ie7.css
+++style.responsive.css
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\style.responsive.css
+++Web.config
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\web.config
+++wucLogin.ascx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wuclogin.ascx
+++wucSignUp.ascx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wucsignup.ascx
+++wucSignUp.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wucsignup.ascx.cs
+++wucSignUp.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wucsignup.ascx.designer.cs
+++AssemblyInfo.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\properties\assemblyinfo.cs
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++Microsoft.CSharp
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.ComponentModel.DataAnnotations
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Configuration
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Core
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Data
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Data.DataSetExtensions
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Drawing
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.EnterpriseServices
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Web
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Web.ApplicationServices
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Web.DynamicData
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Web.Entity
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Web.Extensions
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Web.Services
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Xml
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++System.Xml.Linq
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
+++UserControl
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\
+++Admin.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\admin.aspx
+++Categorie.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\categorie.aspx
+++Product.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\product.aspx
+++SearchMembers.aspx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\searchmembers.aspx
 ++20ac0.jpg
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\20ac0.jpg
 ++3bd4a.jpg
@@ -83,6 +157,10 @@ i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectle
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\cadenas.png
 ++cart.jpg
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\cart.jpg
+++delevriyadress.jpg
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\delevriyadress.jpg
+++dhl.jpeg
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\dhl.jpeg
 ++f.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\f.png
 ++footerbullets.png
@@ -95,12 +173,18 @@ i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectle
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\footertwittericon.png
 ++header.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\header.png
+++ligne.jpg
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\ligne.jpg
 ++linkedinicon.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\linkedinicon.png
 ++mail.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\mail.png
+++MasterCard.jpg
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\mastercard.jpg
 ++menuseparator.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\menuseparator.png
+++navbar.jpg
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\navbar.jpg
 ++NavigatorFirst.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\navigatorfirst.png
 ++NavigatorFirstOff.png
@@ -163,6 +247,8 @@ i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectle
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\user.png
 ++vimeoicon.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\vimeoicon.png
+++visa-electron.png
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\visa-electron.png
 ++vmenuactivesubitemicon.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\vmenuactivesubitemicon.png
 ++vmenublock.png
@@ -175,142 +261,102 @@ i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectle
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\youtubeicon.png
 ++yputube.png
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\images\yputube.png
-++ProImgs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proimgs\
 ++1.jpg
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proimgs\1.jpg
 ++2.jpg
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proimgs\2.jpg
 ++3.jpg
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proimgs\3.jpg
-++WebControl
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\
+++ShoppingCard.ascx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\shoppingcard.ascx
 ++ULAllCat.ascx
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulallcat.ascx
 ++ULAllPro.ascx
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulallpro.ascx
 ++ULCategories.ascx
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulcategories.ascx
+++ULCheckout.ascx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulcheckout.ascx
 ++ULLastestPro.ascx
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ullastestpro.ascx
 ++ULProDetail.ascx
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulprodetail.ascx
-++ULProDetail.ascx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulprodetail.ascx.cs
-++ULProDetail.ascx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulprodetail.ascx.designer.cs
 ++ULSearch.ascx
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulsearch.ascx
-++ULSearch.ascx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulsearch.ascx.cs
-++ULSearch.ascx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulsearch.ascx.designer.cs
-++AllCat.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allcat.aspx
-++AllPro.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allpro.aspx
-++Default.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\default.aspx
-++index.html
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\index.html
-++jquery.js
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\jquery.js
-++Login.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\login.aspx
-++new-page-2.html
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\new-page-2.html
-++new-page.html
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\new-page.html
-++nouvelle-page-2.html
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\nouvelle-page-2.html
-++nouvelle-page-3.html
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\nouvelle-page-3.html
-++nouvelle-page.html
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\nouvelle-page.html
-++packages.config
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\packages.config
-++ProDetail.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\prodetail.aspx
-++ProOfCat.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proofcat.aspx
-++script.js
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\script.js
-++script.responsive.js
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\script.responsive.js
-++SignUp.aspx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\signup.aspx
-++style.css
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\style.css
-++style.ie7.css
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\style.ie7.css
-++style.responsive.css
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\style.responsive.css
-++Web.config
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\web.config
-++wucLogin.ascx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wuclogin.ascx
-++wucSignUp.ascx
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wucsignup.ascx
-++AssemblyInfo.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\properties\assemblyinfo.cs
-++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++Microsoft.CSharp
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.ComponentModel.DataAnnotations
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Configuration
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Core
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Data
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Data.DataSetExtensions
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Drawing
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.EnterpriseServices
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Web
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Web.ApplicationServices
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Web.DynamicData
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Web.Entity
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Web.Extensions
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Web.Services
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Xml
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++System.Xml.Linq
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:
-++MemberSearch.ascx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\membersearch.ascx.cs
-++MemberSearch.ascx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\membersearch.ascx.designer.cs
-++wucCategory.ascx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wuccategory.ascx.cs
-++wucCategory.ascx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wuccategory.ascx.designer.cs
+++AllCat.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allcat.aspx.cs
+++AllCat.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allcat.aspx.designer.cs
+++AllPro.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allpro.aspx.cs
+++AllPro.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allpro.aspx.designer.cs
+++Cart.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\cart.aspx.cs
+++Cart.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\cart.aspx.designer.cs
+++Checkout.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\checkout.aspx.cs
+++Checkout.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\checkout.aspx.designer.cs
+++Default.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\default.aspx.cs
+++Default.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\default.aspx.designer.cs
+++Login.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\login.aspx.cs
+++Login.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\login.aspx.designer.cs
+++MasterPage.Master.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\masterpage.master.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\masterpage.master.cs
+++MasterPage.Master.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\masterpage.master.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\masterpage.master.designer.cs
+++ProDetail.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\prodetail.aspx.cs
+++ProDetail.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\prodetail.aspx.designer.cs
+++ProOfCat.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proofcat.aspx.cs
+++ProOfCat.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proofcat.aspx.designer.cs
+++Web.Debug.config
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\web.debug.config
+++Web.Release.config
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\web.release.config
+++wucLogin.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wuclogin.ascx.cs
+++wucLogin.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wuclogin.ascx.designer.cs
+++AggAdmin.ascx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\aggadmin.ascx
+++MemberSearch.ascx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\membersearch.ascx
+++wucCategory.ascx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wuccategory.ascx
+++wucProduct.ascx
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wucproduct.ascx
 ++Admin.aspx.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\admin.aspx.cs
 ++Admin.aspx.designer.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\admin.aspx.designer.cs
-++MasterPage.Master.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\masterpage.master.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\masterpage.master.cs
-++MasterPage.Master.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\masterpage.master.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\masterpage.master.designer.cs
+++Categorie.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\categorie.aspx.cs
+++Categorie.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\categorie.aspx.designer.cs
+++Product.aspx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\product.aspx.cs
+++Product.aspx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\product.aspx.designer.cs
 ++SearchMembers.aspx.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\searchmembers.aspx.cs
 ++SearchMembers.aspx.designer.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\searchmembers.aspx.designer.cs
+++ShoppingCard.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\shoppingcard.ascx.cs
+++ShoppingCard.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\shoppingcard.ascx.designer.cs
 ++ULAllCat.ascx.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulallcat.ascx.cs
 ++ULAllCat.ascx.designer.cs
@@ -323,47 +369,35 @@ i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectle
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulcategories.ascx.cs
 ++ULCategories.ascx.designer.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulcategories.ascx.designer.cs
+++ULCheckout.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulcheckout.ascx.cs
+++ULCheckout.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulcheckout.ascx.designer.cs
 ++ULLastestPro.ascx.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ullastestpro.ascx.cs
 ++ULLastestPro.ascx.designer.cs
 i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ullastestpro.ascx.designer.cs
-++AllCat.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allcat.aspx.cs
-++AllCat.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allcat.aspx.designer.cs
-++AllPro.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allpro.aspx.cs
-++AllPro.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\allpro.aspx.designer.cs
-++Default.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\default.aspx.cs
-++Default.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\default.aspx.designer.cs
-++Login.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\login.aspx.cs
-++Login.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\login.aspx.designer.cs
-++ProDetail.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\prodetail.aspx.cs
-++ProDetail.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\prodetail.aspx.designer.cs
-++ProOfCat.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proofcat.aspx.cs
-++ProOfCat.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\proofcat.aspx.designer.cs
-++SignUp.aspx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\signup.aspx.cs
-++SignUp.aspx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\signup.aspx.designer.cs
-++Web.Debug.config
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\web.debug.config
-++Web.Release.config
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\web.release.config
-++wucLogin.ascx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wuclogin.ascx.cs
-++wucLogin.ascx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wuclogin.ascx.designer.cs
-++wucSignUp.ascx.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wucsignup.ascx.cs
-++wucSignUp.ascx.designer.cs
-i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\wucsignup.ascx.designer.cs
+++ULProDetail.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulprodetail.ascx.cs
+++ULProDetail.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulprodetail.ascx.designer.cs
+++ULSearch.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulsearch.ascx.cs
+++ULSearch.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\webcontrol\ulsearch.ascx.designer.cs
+++AggAdmin.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\aggadmin.ascx.cs
+++AggAdmin.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\aggadmin.ascx.designer.cs
+++MemberSearch.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\membersearch.ascx.cs
+++MemberSearch.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\membersearch.ascx.designer.cs
+++wucCategory.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wuccategory.ascx.cs
+++wucCategory.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wuccategory.ascx.designer.cs
+++wucProduct.ascx.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wucproduct.ascx.cs
+++wucProduct.ascx.designer.cs
+i:{c701fb19-35d0-4d47-97d5-af4b13b76028}:d:\work\workspace - web forms\projectleaderwebsite\projectleaderwebsite\admin\usercontrol\wucproduct.ascx.designer.cs

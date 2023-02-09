@@ -62,7 +62,14 @@
 
 <nav class="art-nav">
     <div class="art-nav-inner">
-    <ul class="art-hmenu"><li><a href="Default.aspx" class="active">Home</a></li><li><a href="SignUp.aspx">Register</a></li><li><a href="Login.aspx">login</a></li><li><a href="nouvelle-page-2.html">Nouvelle Page 2</a></li><li><a href="nouvelle-page-3.html">Nouvelle Page 3</a></li></ul> 
+    <ul class="art-hmenu">
+        <li><a href="Default.aspx" class="active">Home</a></li>
+        <li><a href="SignUp.aspx">Register</a></li>
+        <li><a href="Login.aspx">login</a></li>
+        <li><a href="Cart.aspx">Shopping Cart</a></li>
+<%--        <li><a href="nouvelle-page-3.html">Nouvelle Page 3</a></li>--%>
+
+    </ul> 
         </div>
     </nav>
 
@@ -79,11 +86,11 @@
                                  </div>
         <div class="art-vmenublockcontent">
         <ul class="art-vmenu">
-            <li><a class="active">Home</a></li>
+            <li><a href="Default.aspx"  class="active">Home</a></li>
             <li><a href="SignUp.aspx">Register</a></li>
             <li><a href="Login.aspx">login</a></li>
-            <li><a href="nouvelle-page-2.html">Nouvelle Page 2</a></li>
-            <li><a href="nouvelle-page-3.html">Nouvelle Page 3</a></li>
+            <li><a href="Cart.aspx">Shopping Cart</a></li>
+          <%--  <li><%--<a href="nouvelle-page-3.html">Nouvelle Page 3</a>--%></li>--%>
         </ul>
                 
         </div>

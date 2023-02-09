@@ -15,7 +15,8 @@
     <AssemblyName>ProjectLeaderWebsite</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <Use64BitIISExpress />
+    <Use64BitIISExpress>
+    </Use64BitIISExpress>
     <IISExpressSSLPort>44387</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -71,12 +72,14 @@
     <Content Include="Admin\Product.aspx" />
     <Content Include="Admin\Categorie.aspx" />
     <Content Include="Admin\SearchMembers.aspx" />
+    <Content Include="Admin\UserControl\AggAdmin.ascx" />
     <Content Include="Admin\UserControl\MemberSearch.ascx" />
     <Content Include="Admin\UserControl\wucProduct.ascx" />
     <Content Include="Admin\UserControl\wucCategory.ascx" />
     <Content Include="AllCat.aspx" />
     <Content Include="AllPro.aspx" />
     <Content Include="Cart.aspx" />
+    <Content Include="Checkout.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="images\20ac0.jpg" />
     <Content Include="images\3bd4a.jpg" />
@@ -88,15 +91,20 @@
     <Content Include="images\blockbullets.png" />
     <Content Include="images\cadenas.png" />
     <Content Include="images\cart.jpg" />
+    <Content Include="images\delevriyadress.jpg" />
+    <Content Include="images\dhl.jpeg" />
     <Content Include="images\f.png" />
     <Content Include="images\footerbullets.png" />
     <Content Include="images\footerfacebookicon.png" />
     <Content Include="images\footerrssicon.png" />
     <Content Include="images\footertwittericon.png" />
     <Content Include="images\header.png" />
+    <Content Include="images\ligne.jpg" />
     <Content Include="images\linkedinicon.png" />
     <Content Include="images\mail.png" />
+    <Content Include="images\MasterCard.jpg" />
     <Content Include="images\menuseparator.png" />
+    <Content Include="images\navbar.jpg" />
     <Content Include="images\NavigatorFirst.png" />
     <Content Include="images\NavigatorFirstOff.png" />
     <Content Include="images\NavigatorLast.png" />
@@ -128,20 +136,15 @@
     <Content Include="images\téléchargement.png" />
     <Content Include="images\user.png" />
     <Content Include="images\vimeoicon.png" />
+    <Content Include="images\visa-electron.png" />
     <Content Include="images\vmenuactivesubitemicon.png" />
     <Content Include="images\vmenublock.png" />
     <Content Include="images\vmenuhoveredsubitemicon.png" />
     <Content Include="images\vmenusubitemicon.png" />
     <Content Include="images\youtubeicon.png" />
     <Content Include="images\yputube.png" />
-    <Content Include="index.html" />
     <Content Include="jquery.js" />
     <Content Include="Login.aspx" />
-    <Content Include="new-page-2.html" />
-    <Content Include="new-page.html" />
-    <Content Include="nouvelle-page-2.html" />
-    <Content Include="nouvelle-page-3.html" />
-    <Content Include="nouvelle-page.html" />
     <Content Include="ProDetail.aspx" />
     <Content Include="ProImgs\1.jpg" />
     <Content Include="ProImgs\2.jpg" />
@@ -154,6 +157,8 @@
     <Content Include="style.ie7.css" />
     <Content Include="style.responsive.css" />
     <Content Include="Web.config" />
+    <Content Include="WebControl\ULCheckout.ascx" />
+    <Content Include="WebControl\ShoppingCard.ascx" />
     <Content Include="WebControl\ULAllCat.ascx" />
     <Content Include="WebControl\ULAllPro.ascx" />
     <Content Include="WebControl\ULCategories.ascx" />
@@ -199,6 +204,13 @@
     <Compile Include="Admin\SearchMembers.aspx.designer.cs">
       <DependentUpon>SearchMembers.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\UserControl\AggAdmin.ascx.cs">
+      <DependentUpon>AggAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControl\AggAdmin.ascx.designer.cs">
+      <DependentUpon>AggAdmin.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\UserControl\MemberSearch.ascx.cs">
       <DependentUpon>MemberSearch.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -241,6 +253,14 @@
     <Compile Include="Cart.aspx.designer.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Checkout.aspx.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout.aspx.designer.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Card.cs" />
     <Compile Include="Code\Category.cs" />
     <Compile Include="Code\DB.cs" />
     <Compile Include="Code\Utility.cs" />
@@ -270,6 +290,7 @@
     <Compile Include="Code\Order.cs" />
     <Compile Include="Code\OrderDetails.cs" />
     <Compile Include="Code\Product.cs" />
+    <Compile Include="Piece.cs" />
     <Compile Include="ProDetail.aspx.cs">
       <DependentUpon>ProDetail.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,6 +312,20 @@
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\ULCheckout.ascx.cs">
+      <DependentUpon>ULCheckout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ULCheckout.ascx.designer.cs">
+      <DependentUpon>ULCheckout.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\ShoppingCard.ascx.cs">
+      <DependentUpon>ShoppingCard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\ShoppingCard.ascx.designer.cs">
+      <DependentUpon>ShoppingCard.ascx</DependentUpon>
     </Compile>
     <Compile Include="WebControl\ULAllCat.ascx.cs">
       <DependentUpon>ULAllCat.ascx</DependentUpon>

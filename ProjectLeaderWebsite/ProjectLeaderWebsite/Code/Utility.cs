@@ -45,7 +45,7 @@ namespace ProjectLeaderWebsite.Code
 
                 //return cookie;
             }
-            catch (Exception ex)
+            catch 
             {
                 return null;
             }

@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/MasterPage.Master" AutoEventWireup="true" CodeBehind="Admin.aspx.cs" Inherits="ProjectLeaderWebsite.Admin.Admin" %>
+<%@ Register src="UserControl/AggAdmin.ascx" tagname="AggAdmin" tagprefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -6,7 +7,9 @@
     
     <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>
     <asp:LinkButton ID="lbnSignout" runat="server" OnClick="lbnSignout_Click" Visible="False">(Logout)</asp:LinkButton>
-              <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout-wrapper layout-item-0">
+              <br />
+    <uc1:AggAdmin ID="AggAdmin1" runat="server" />
+&nbsp;<div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout-wrapper layout-item-0">
 <div class="art-content-layout layout-item-1">
     <div class="art-content-layout-row">
     <div class="art-layout-cell layout-item-2" style="width: 50%" >

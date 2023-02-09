@@ -18,11 +18,11 @@
 </style>
 
 <p>
-    <asp:ScriptManager ID="ScriptManager1" runat="server">
-    </asp:ScriptManager>
+  <%--  <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>--%>
 </p>
-<asp:UpdatePanel ID="UpdatePanel1" runat="server">
-    <ContentTemplate>
+<%--<asp:UpdatePanel ID="UpdatePanel1" runat="server">
+    <ContentTemplate>--%>
         <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
             <asp:View ID="View1" runat="server">
                 <table align="center" class="auto-style1">
@@ -112,14 +112,14 @@
                 </table>
             </asp:View>
         </asp:MultiView>
-        <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+       <%-- <asp:UpdateProgress ID="UpdateProgress1" runat="server">
             <ProgressTemplate>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Image ID="Image2" runat="server" Height="54px" ImageUrl="~/images/téléchargement.png" />
             </ProgressTemplate>
         </asp:UpdateProgress>
     </ContentTemplate>
-</asp:UpdatePanel>
+</asp:UpdatePanel>--%>
 
 
 
